@@ -1,0 +1,24 @@
+uuid: 7ad106d5-0623-43a2-b365-29e6807092e5
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.products.field_product_features
+    - field.field.node.products.field_product_images
+    - node.type.products
+  module:
+    - user
+id: node.products.teaser
+targetEntityType: node
+bundle: products
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_product_features: true
+  field_product_images: true

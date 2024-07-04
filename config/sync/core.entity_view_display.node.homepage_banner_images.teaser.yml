@@ -1,0 +1,24 @@
+uuid: 70b19e66-2cec-4551-94e8-63a71660e459
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.homepage_banner_images.field_homepage_banner_image
+    - field.field.node.homepage_banner_images.field_homepage_banner_link
+    - node.type.homepage_banner_images
+  module:
+    - user
+id: node.homepage_banner_images.teaser
+targetEntityType: node
+bundle: homepage_banner_images
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_homepage_banner_image: true
+  field_homepage_banner_link: true

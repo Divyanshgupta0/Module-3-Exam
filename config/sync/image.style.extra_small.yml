@@ -1,0 +1,14 @@
+uuid: f94767bc-9bff-4358-b10b-2f0de3cf38c7
+langcode: en
+status: true
+dependencies: {  }
+name: extra_small
+label: 'Extra Small'
+effects:
+  80a46802-3eba-4270-b735-e2af08102723:
+    uuid: 80a46802-3eba-4270-b735-e2af08102723
+    id: image_resize
+    weight: 1
+    data:
+      width: 50
+      height: 50

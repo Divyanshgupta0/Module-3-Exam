@@ -1,0 +1,30 @@
+uuid: 61fa37f3-2485-4d3d-a676-fcdc44f8a9be
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.products_image_banner
+  module:
+    - system
+    - views
+  theme:
+    - olivero
+id: olivero_views_block__products_image_banner_block_1_2
+theme: olivero
+region: content_above
+weight: -7
+provider: null
+plugin: 'views_block:products_image_banner-block_1'
+settings:
+  id: 'views_block:products_image_banner-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/products/*'
