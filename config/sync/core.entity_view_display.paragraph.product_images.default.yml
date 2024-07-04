@@ -1,0 +1,29 @@
+uuid: ed6a032d-c75d-489a-b9ae-365cac025ad1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.product_images.field_product_image
+    - field.field.paragraph.product_images.field_product_image_text
+    - image.style.medium
+    - paragraphs.paragraphs_type.product_images
+  module:
+    - image
+id: paragraph.product_images.default
+targetEntityType: paragraph
+bundle: product_images
+mode: default
+content:
+  field_product_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_product_image_text: true

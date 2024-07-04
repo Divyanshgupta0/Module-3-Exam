@@ -1,0 +1,23 @@
+uuid: c113309f-75bb-49ab-8d16-c380aab16c05
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_homepage_banner_link
+    - node.type.homepage_banner_images
+  module:
+    - link
+id: node.homepage_banner_images.field_homepage_banner_link
+field_name: field_homepage_banner_link
+entity_type: node
+bundle: homepage_banner_images
+label: 'Homepage Banner link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 0
+  link_type: 17
+field_type: link

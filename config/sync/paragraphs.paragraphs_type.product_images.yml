@@ -1,0 +1,10 @@
+uuid: 293ea46e-ee3b-4aee-bba5-c2d305b1c018
+langcode: en
+status: true
+dependencies: {  }
+id: product_images
+label: 'Product images'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

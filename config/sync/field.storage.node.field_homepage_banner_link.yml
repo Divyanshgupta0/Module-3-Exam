@@ -1,0 +1,19 @@
+uuid: 614f748f-996b-4f55-876b-0e1364c606c2
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_homepage_banner_link
+field_name: field_homepage_banner_link
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

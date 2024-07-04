@@ -1,0 +1,46 @@
+uuid: 30a529a0-b3ac-4e68-98c2-308fbdaf001d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.homepage_banner_images.field_homepage_banner_image
+    - field.field.node.homepage_banner_images.field_homepage_banner_link
+    - node.type.homepage_banner_images
+  module:
+    - image
+    - link
+    - user
+id: node.homepage_banner_images.default
+targetEntityType: node
+bundle: homepage_banner_images
+mode: default
+content:
+  field_homepage_banner_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_homepage_banner_link:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

@@ -1,0 +1,19 @@
+uuid: 99967214-22fb-4371-9b64-e054bd8beab5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_product_image_text
+    - paragraphs.paragraphs_type.product_images
+id: paragraph.product_images.field_product_image_text
+field_name: field_product_image_text
+entity_type: paragraph
+bundle: product_images
+label: 'product image text'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

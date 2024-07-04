@@ -1,0 +1,11 @@
+uuid: 18ce8908-c473-4dcd-a601-4c77a56b54ea
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.aboutus
+label: AboutUS
+description: ''
+targetEntityType: node
+cache: true

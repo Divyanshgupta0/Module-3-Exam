@@ -1,0 +1,31 @@
+uuid: 8d9c7348-9ed5-4486-ab75-d9a1134ac811
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_basic_page_logos
+    - node.type.page
+    - paragraphs.paragraphs_type.product_images
+  module:
+    - entity_reference_revisions
+id: node.page.field_basic_page_logos
+field_name: field_basic_page_logos
+entity_type: node
+bundle: page
+label: Partners
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      product_images: product_images
+    negate: 0
+    target_bundles_drag_drop:
+      product_images:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions
